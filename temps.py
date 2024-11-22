@@ -31,10 +31,11 @@ def sort_temperatures(measurements):
 
 def convert_from_fahrenheit(temps):
     """
+    Purpose of fucntion is to convert the temprature from deggrees F (Deg F) into degrees C (Deg C)
     Inputs: array of real numbers representing temprature in Deg F
     Output: array of real numbers converted from Deg F to Deg C
 
-    Method (Temprature -32) divided by 1.8
+    Method: (Temprature -32) divided by 1.8
     """
     results = [] 
     for temp in temps:
@@ -44,10 +45,11 @@ def convert_from_fahrenheit(temps):
 
 def convert_to_fahrenheit(temps):
         """
+    Purpose is to convert a temprature reading from Deg C to Deg F
     Inputs: array of real numbers representing temprature in Deg C
     Output: array of real numbers converted from Deg C to Deg F
 
-    Method Temprature*1.8 +32
+    Method: Temprature*1.8 +32
     """
     results = []
     for temp in temps:
